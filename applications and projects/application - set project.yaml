@@ -11,7 +11,7 @@ spec:
   source: 
     path: guestbook
     repoURL: "https://github.com/techsysvbo/argocd-example-apps.git"
-    targetRevision: main
+    targetRevision: master
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
